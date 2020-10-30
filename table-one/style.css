@@ -1,13 +1,15 @@
 body{
     font-family: 'Nunito', sans-serif;
     ;
+    background:linear-gradient(90deg, #00b09b 0%,#029685 100% );
 }
 .content-table{
     margin: 25px 0;
     border-collapse: collapse;
     font-size: 0.9rem;
-    width: 100%;
-    max-width: 400px;
+    width: 60%;
+    min-width: 400px;
+    margin: 7% auto 25px auto;
 }
 .content-table thead tr{
     background:linear-gradient(90deg, #11998e 0%,#38ef7d 100% );
