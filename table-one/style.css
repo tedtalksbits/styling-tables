@@ -1,0 +1,28 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    ;
+}
+.content-table{
+    margin: 25px 0;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 400px;
+}
+.content-table thead tr{
+    background:linear-gradient(90deg, #11998e 0%,#38ef7d 100% );
+    text-align: left;
+    color: white;
+}
+.content-table th, .content-table td{
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid lightgrey;
+}
+.content-table tbody tr:nth-of-type(even){
+    background: #f3f3f3;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px #11998e solid;
+}
